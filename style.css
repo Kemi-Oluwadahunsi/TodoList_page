@@ -1,0 +1,65 @@
+body{
+    font-family: Arial;
+    background: url(best_to_do_apps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.2rem;
+}
+
+.container{
+    width: 40%;
+    height: 60vh;
+    margin: 0 auto;
+    background: rgba(250, 250,250, 0.8);
+    margin-top: 7%;
+    border: 1px solid navy;
+    border-radius: 3px;
+}
+
+p{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 5%;
+    color: rgb(56, 56, 56);
+}
+
+.todo-grid, .todo-input-grid{
+    display: grid;
+    grid-template-columns: 15rem 11rem 7rem;
+    column-gap: 15px;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.todo-input-grid{
+    margin-bottom: .8rem;
+    align-items: stretch;
+    margin-top: 10%;
+}
+
+.name-input, .due-date-input{
+    font-size: 1.1rem;
+    padding: .3rem;
+    border: 2px solid gray;
+}
+
+.add-todo-button{
+    background-color: rgb(6, 6, 70);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.delete-todo-button{
+    background-color: rgb(252, 44, 44);
+    color: white;
+    padding: .7rem 0;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
